@@ -1,0 +1,96 @@
+
+.Sforca{
+	width: 100px;
+	height: 150px;
+	float:left;
+}
+
+.SapoioSimples{
+	width: 100px;
+	height: 150px;
+	float:left;
+}
+
+.SapoioDuplo{
+	width: 100px;
+	height: 150px;
+	float:left;
+}
+
+.forca{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	float:left;
+	background:transparent no-repeat;
+  	border: 1.5px solid #b8b894;
+  	border-radius: 5px;
+}
+
+#forca0:hover { 
+  background-color: #99ff99;
+}
+
+.apoioSimples:hover{
+	background-color: #99ff99;
+}
+
+.apoioDuplo:hover{
+	background-color: #99ff99;
+}
+
+.rotation:hover{
+	background-color: #99ff99;
+}
+
+
+#barra{
+	background: yellow;
+	width: 500px;
+	height: 10px;
+	margin-top:160px;
+
+}
+
+#effect{
+	width: 100%;
+	border: 1px solid #8a4419;
+ 	border-style: inset;
+}
+
+#conteudo{
+	width: 600px;
+	border: 1.25px solid #b8b894;
+	padding:10px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+}
+
+.rotation{
+	width: 25px;
+	height: 25px;
+	float:right	;
+	background:transparent no-repeat;
+  	border: 1.5px solid #b8b894;
+  	border-radius: 5px
+}
+
+.apoioSimples{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-left: 75px;
+	background:transparent no-repeat;
+  	border: 1.5px solid #b8b894;
+  	border-radius: 5px
+}
+
+.apoioDuplo{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-left: 150px;
+	background:transparent no-repeat;
+  	border: 1.5px solid #b8b894;
+  	border-radius: 5px
+}

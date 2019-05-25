@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html lang="en">
+<head>
+
+  <title>Página de PEF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="{% static "css/estilo.css" %}" />
+  <script src="{% static "js/homeScript.js" %}"></script>
+  <style>
+
+  </style>
+</head>
+<body id="myPage" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div id="menu" class="container">
+    <div id="links">
+        <a class="dp btn dropBut" href="{% url 'home' %}">Home</a>
+        <div class="dropagem">
+          <a id="resumosBut" class="dp btn dropBut">Educação</a>
+          <div id="listaResumos" class="dp droplist" >    
+              <a href="{% url 'lorem1' %}">Lorem1 </a>
+              <a href="{% url 'lorem1' %}">Lorem2 </a>
+              <a href="{% url 'lorem1' %}">Lorem3 </a>
+            </div>
+          </div>
+          <div class="dropagem">
+          <a id="educacaoBut" class=" btn dropBut" href="{% url 'pratique' %}">Pratique</a>
+          </div>
+        <a class="dp btn dropBut" href="{% url 'modeloInterativo' %}">Modelo Interativo</a>
+      </div>
+  </div>
+</nav>
+
+<div id="title1" class="jumbotron text-center">
+  <h3>Exercícios</h3> 
+  <p>descricao</p> 
+</div>
+
+
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <h2>Titulo</h2><br>
+      <div id="panel4" class="col-sm-4 meupanel">
+        <div id="tituloPanel4" class="panel-heading">Exercício 1</div>
+        <div  class="panel-body">
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        </div>
+      </div>
+      <h4 style="text-align: justify;">ResolucaoResolucao Resolucao Resolucao Resolucao Resolucao 
+      Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao
+    Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao </h4><br>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+   <div class="row">
+    <div class="col-sm-12 text-center">
+      <div id="panel4" class="col-sm-4 meupanel">
+        <div id="tituloPanel4" class="panel-heading">Exercício 2</div>
+        <div  class="panel-body">
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        </div>
+      </div>
+      <h4 style="text-align: justify;">ResolucaoResolucao Resolucao Resolucao Resolucao Resolucao 
+      Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao
+    Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao </h4><br>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <div id="panel4" class="col-sm-4 meupanel">
+        <div id="tituloPanel4" class="panel-heading">Exercício 3</div>
+        <div  class="panel-body">
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        </div>
+      </div>
+      <h4 style="text-align: justify;">ResolucaoResolucao Resolucao Resolucao Resolucao Resolucao 
+      Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao
+    Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao </h4><br>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+   <div class="row">
+    <div class="col-sm-12 text-center">
+      <div id="panel4" class="col-sm-4 meupanel">
+        <div id="tituloPanel4" class="panel-heading">Exercício 4</div>
+        <div  class="panel-body">
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        </div>
+      </div>
+      <h4 style="text-align: justify;">ResolucaoResolucao Resolucao Resolucao Resolucao Resolucao 
+      Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao
+    Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao </h4><br>
+    </div>
+  </div>
+</div>
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <div id="panel4" class="col-sm-4 meupanel">
+        <div id="tituloPanel4" class="panel-heading">Exercício 5</div>
+        <div  class="panel-body">
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        </div>
+      </div>
+      <h4 style="text-align: justify;">ResolucaoResolucao Resolucao Resolucao Resolucao Resolucao 
+      Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao
+    Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao </h4><br>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+   <div class="row">
+    <div class="col-sm-12 text-center">
+      <div id="panel4" class="col-sm-4 meupanel">
+        <div id="tituloPanel4" class="panel-heading">Exercício 6</div>
+        <div  class="panel-body">
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        EnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciadoEnunciado
+        </div>
+      </div>
+      <h4 style="text-align: justify;">ResolucaoResolucao Resolucao Resolucao Resolucao Resolucao 
+      Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao
+    Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao Resolucao </h4><br>
+    </div>
+  </div>
+</div>
+
+
+  <div>
+    <footer id="direitos">
+      <strong>Todos os direitos Reservados Grupo de PEF</strong>
+    </footer>
+
+  </div>
+
+</body>
+</html>
